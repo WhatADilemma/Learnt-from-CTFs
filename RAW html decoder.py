@@ -26,5 +26,5 @@ hex_string = hex_representation.replace(' ', '')
 ascii_text = hex_to_text(hex_string)
 print("Converted Text:", ascii_text)
 
-
+#This code was taken from the Imaginary CTF challenge that gave us a random string, from there I used CyberChef with the 'Magic' filter which threw the UTF-8 encoding so with the help of Google I was able to capture the raw value which is on line 4, you can take this code and change it to your needs. Hopefully it works as I did ask ChatGPT to create it for me
 
