@@ -1,0 +1,9 @@
+name: DoS'ed out.
+author: Lindsay Coudert
+Description: The main server got DoS attacked. Who is the suspected attacker? What country does this suspected IP come from?
+How many packets with the SYN flag only did this attacker send? 
+Answer these questions to help find out what happened. 
+Flag format - pecan{SourceIP_SourceCountry_SYNCount} 
+Flag - pecan{90.4.7.157_France_500}
+files:
+- McLaren_Synflood.pcap
